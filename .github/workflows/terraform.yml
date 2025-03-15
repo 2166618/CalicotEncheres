@@ -9,6 +9,9 @@ on:
 jobs:
   terraform:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./terraform
     steps:
       # Étape 1 : Vérifier le code source
       - name: Checkout code
