@@ -19,7 +19,7 @@ jobs:
 
     # Étape 2 : Configurer Azure CLI
     - name: Set up Azure CLI
-      uses: azure/setup-azurecli@v1
+      uses: azure/setup-azurecli@v2
       with:
         azcliversion: '2.70.0'
 
