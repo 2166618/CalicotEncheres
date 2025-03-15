@@ -19,9 +19,9 @@ jobs:
 
     # Étape 2 : Configurer Azure CLI
     - name: Set up Azure CLI
-      uses: azure/setup-azurecli@v1
+      uses: azure/setup-azurecli@v1.4.0
       with:
-        azcliversion: '2.32.0'
+        azcliversion: '2.70.0'
 
     # Étape 3 : Authentifier avec Azure via le Service Principal
     - name: 'Authenticate to Azure'
